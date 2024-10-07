@@ -1,0 +1,14 @@
+.inputProject[type="text"],
+.textareaProject,
+.selectOption {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.formProject {
+    display: flex;
+    flex-direction: column;
+  }

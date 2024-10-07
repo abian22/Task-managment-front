@@ -1,0 +1,38 @@
+.project-container {
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-title {
+  margin: 0;
+  flex-grow: 1; /* Allows the title to take up remaining space */
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto; 
+}
+
+.add-member-icon,
+.cancel-icon {
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.add-member-icon:hover,
+.cancel-icon:hover {
+  opacity: 0.8;
+}
